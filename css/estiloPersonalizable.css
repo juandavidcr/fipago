@@ -1,0 +1,39 @@
+*{
+	margin:0;
+	padding:0;
+}
+.logo{
+	float: left;
+	padding-left: 0em;
+	padding-right: 0.5em;
+	margin-left: 1%;
+	margin-top:1.5em; 
+	padding-bottom: 0.1em;
+}
+.encabezado{
+	margin-top: 0cm;
+}
+
+.barra-nav{
+	
+	display:inline;
+	float: right;
+	top: 0px;
+	max-width: 90%;
+	margin-left: 200px;
+	position: fixed;
+	background-color: rgba(1,133,0,0.5);
+}
+.barra-nav > ul,a{
+   color: black;
+   font-weight: bold;
+}
+.barra-nav > a:hover{
+	background-color: #fff;
+	color: #ccc;
+}
+.ajuste{
+	position: relative;
+	margin-top:-6.5em;
+
+}
